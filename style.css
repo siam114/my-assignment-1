@@ -285,7 +285,7 @@ main{
 }
 
 .support-background {
-  background-image: url("/assets/handshake.jpg"); 
+  background-image: url("./assets/handshake.jpg"); 
   background-size: cover;
   background-position: center;
   padding: 50px 100px;
