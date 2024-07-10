@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* nav style */
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 80px;
+
+}
+nav h3{
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  
+}
+nav button{
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  /* margin: 0px 10px; */
+  padding: 17px 24px 17px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  
+}
+/* banner section */
+.banner-section {
+  background-image: url(./assets/Hero-bg.png);
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 74px;
+}
+.banner-section img {
+  padding: 26px;
+  background-repeat: no-repeat;
+}
+.banner-section h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 24px 50px;
+  color: rgb(13, 19, 33);
+}
+.banner-section p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  margin: 24px 50px;
+}
+.banner-section button {
+  margin: 32px 0px;
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+/* Why Web Development? */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 97px;
+  border-radius: 16px;
+  gap: 40px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  max-width: 852px;
+  margin-top: 48px;
+  /* margin: 48px 0px; */
+}
+.card {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  /* margin: 32px 0px; */
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  padding: 40px 0px 80px 0px;
+}
+.card-header {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin: 16px 0px;
+}
+.card-pera {
+  margin: 16px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.btn {
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+  margin: 32px 0px;
+  flex-direction: column;
+}
+.card-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin: 32px 0px; */
+  padding: 48px;
+}
+
+/* my insperation */
+.insperation-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  /* margin: 48px 0px; */
+}
+.description-h1{
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+.description-pera{
+  width: 100%;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  padding-top: 10px;
+
+}
+.my-insperation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 97px;
+  border-radius: 16px;
+  gap: 30px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.insperation-video{
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  overflow: hidden;
+  
+}
+.insperation-video iframe{
+  border-radius: 16px;
+}
+/* skill section */
+.current-target-container{
+  display: flex;
+  gap: 25px;
+ 
+
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 40px;
+  margin: 10px;
+
+}
+main{
+  margin: 100px;
+}
+.skill-title{
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+}
+.skill-description{
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.7;
+}
+.skill a{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  text-decoration-line: underline;
+}
