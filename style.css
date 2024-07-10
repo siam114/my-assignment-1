@@ -132,11 +132,17 @@ nav h3{
   font-weight: 400;
   text-align: left;
 }
-.btn {
+.card-btn {
   align-items: center;
   padding: 12px 20px 12px 20px;
   margin: 32px 0px;
   flex-direction: column;
+  background-color: #ffffff;
+  color: black;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+
 }
 .card-second {
   display: flex;
