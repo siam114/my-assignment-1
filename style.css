@@ -99,7 +99,7 @@ nav h3{
   justify-content: space-between;
   align-items: center;
   padding: 48px;
-  /* margin: 32px 0px; */
+  margin: 32px;
   border-radius: 16px;
   background: linear-gradient(
     90deg,
@@ -149,9 +149,12 @@ nav h3{
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  /* margin: 32px 0px; */
   padding: 48px;
-}
+  background: linear-gradient( 270deg,
+  rgb(255, 255, 255),
+  rgba(255, 255, 255, 0) 100%);
+  
+  }
 
 /* my insperation */
 .insperation-description{
@@ -330,13 +333,11 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px;
+  gap: 250px;
   border-radius: 16px;
 background: rgba(13, 19, 33, 0.03);
 }
-.gapping{
-  gap: 20px;
-}
+
 .btn {
   padding: 10px 20px;
   font-size: 1em;
